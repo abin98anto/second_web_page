@@ -22,3 +22,42 @@ ul
     gap: 20px;
     font-size: small;
 }
+
+.row1
+{
+    display: flex;
+    background-color: #1F2937;
+    color: whitesmoke;
+    padding: 90px;
+}
+
+.row1_text h1
+{
+    font-weight: 900;
+}
+
+.row1_text p
+{
+    font-size: small;
+}
+
+.button
+{
+    background-color: #3882F6;
+    color: whitesmoke;
+    padding: 5px 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-weight: 800;
+}
+
+.row1_image
+{
+    width: 700px;
+    height: 200px;
+    background-color: grey;
+    text-align: center;
+    padding-left: 30px;
+}
+
