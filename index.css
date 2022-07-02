@@ -6,6 +6,7 @@ body
     font-family: "roboto", sans-serif;
 }
 
+/* Header */
 .header
 {
     display: flex;
@@ -23,6 +24,7 @@ ul
     font-size: small;
 }
 
+/* Row 1 */
 .row1
 {
     display: flex;
@@ -54,10 +56,45 @@ ul
 
 .row1_image
 {
-    width: 700px;
-    height: 200px;
+    width: 100%;
+    height: auto;
     background-color: grey;
     text-align: center;
     padding-left: 30px;
 }
 
+/* Row 2 */
+
+.row2_heading
+{
+    text-align: center;
+}
+
+.row2_heading h1
+{
+    font-weight: bolder;
+}
+
+.row2
+{
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;    
+}
+
+.row2_1i
+{
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+}
+
+.row2_1t
+{
+    width: 150px;
+    font-size: smaller;
+    text-align: center;
+}
